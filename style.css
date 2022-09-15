@@ -4,16 +4,6 @@ body {
     margin: 0;
   }
   
-  .contact-banner {
-    background-image: linear-gradient(
-      to right,
-      #35424a 0%,
-      #35424a 100%
-    );
-    color: white;
-    padding: 20px;
-  }
-  
   .invalid {
     border: 1px solid red;
   }
@@ -29,11 +19,6 @@ body {
   p {
     font-size: 20px;
   }
-  
-  .contact-description {
-    margin-bottom: 40px;
-  }
-  
   input {
     padding: 10px;
     border-radius: 5px;
@@ -70,7 +55,7 @@ body {
     border-radius: 5px;
     outline: none;
     padding: 10px;
-    height: 200px;
+    height: 100px;
     font-size: 18px;
   }
   
@@ -110,8 +95,9 @@ body {
     background:#35424a;
     color:#ffffff;
     padding-top:30px;
-    min-height:70px;
+    min-height:100px;
     border-bottom:#e8491d 3px solid;
+    flex:auto;
   }
   
   header a{
@@ -125,6 +111,11 @@ body {
     float:left;
     display:inline;
     padding: 0 20px 0 20px;
+  }
+  .main-container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
   }
   
   header #branding{
